@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*.joblib
+models/*.pt
+reports/figures/*.png
+!reports/figures/.gitkeep
+.ipynb_checkpoints/
+~$*
+*.tmp
+*.zip

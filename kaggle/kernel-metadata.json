@@ -1,0 +1,13 @@
+{
+  "id": "mikunakano1357/rul-cmapss-fd001-dl-training",
+  "title": "RUL CMAPSS FD001 DL Training",
+  "code_file": "kaggle_train_deep.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": ["palbha/cmapss-jet-engine-simulated-data"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

@@ -1,0 +1,41 @@
+[{"stream_name":"stdout","time":11.868601489,"data":"device: cuda\n"}
+,{"stream_name":"stderr","time":11.881329083,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":11.882549744,"data":"  File \"/kaggle/src/script.py\", line 215, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":11.88256865,"data":"    main()\n"}
+,{"stream_name":"stderr","time":11.882571857,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":11.882574481,"data":"  File \"/kaggle/src/script.py\", line 172, in main\n"}
+,{"stream_name":"stderr","time":11.882577155,"data":"    train_df, test_df, rul_truth = load_fd001(INPUT_DIR)\n"}
+,{"stream_name":"stderr","time":11.882579725,"data":"                                   ~~~~~~~~~~^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":11.882582205,"data":"  File \"/kaggle/src/script.py\", line 38, in load_fd001\n"}
+,{"stream_name":"stderr","time":11.882584849,"data":"    train_df = pd.read_csv(raw_dir / \"train_FD001.txt\", sep=r\"\\s+\", header=None, names=COLUMNS)\n"}
+,{"stream_name":"stderr","time":11.882588003,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/io/parsers/readers.py\", line 1026, in read_csv\n"}
+,{"stream_name":"stderr","time":11.882590728,"data":"    return _read(filepath_or_buffer, kwds)\n"}
+,{"stream_name":"stderr","time":11.882593329,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/io/parsers/readers.py\", line 620, in _read\n"}
+,{"stream_name":"stderr","time":11.882595969,"data":"    parser = TextFileReader(filepath_or_buffer, **kwds)\n"}
+,{"stream_name":"stderr","time":11.882598471,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/io/parsers/readers.py\", line 1620, in __init__\n"}
+,{"stream_name":"stderr","time":11.882601157,"data":"    self._engine = self._make_engine(f, self.engine)\n"}
+,{"stream_name":"stderr","time":11.882603642,"data":"                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":11.882610352,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/io/parsers/readers.py\", line 1880, in _make_engine\n"}
+,{"stream_name":"stderr","time":11.882613709,"data":"    self.handles = get_handle(\n"}
+,{"stream_name":"stderr","time":11.88263144,"data":"                   ~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":11.882635607,"data":"        f,\n"}
+,{"stream_name":"stderr","time":11.882639777,"data":"        ^^\n"}
+,{"stream_name":"stderr","time":11.882643721,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stderr","time":11.882648115,"data":"        storage_options=self.options.get(\"storage_options\", None),\n"}
+,{"stream_name":"stderr","time":11.882652397,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":11.882656293,"data":"    )\n"}
+,{"stream_name":"stderr","time":11.882659767,"data":"    ^\n"}
+,{"stream_name":"stderr","time":11.882663283,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/io/common.py\", line 873, in get_handle\n"}
+,{"stream_name":"stderr","time":11.882672681,"data":"    handle = open(\n"}
+,{"stream_name":"stderr","time":11.882675523,"data":"        handle,\n"}
+,{"stream_name":"stderr","time":11.882677984,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":11.882680518,"data":"        newline=\"\",\n"}
+,{"stream_name":"stderr","time":11.882683154,"data":"    )\n"}
+,{"stream_name":"stderr","time":11.88268558,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/input/datasets/train_FD001.txt'\n"}
+,{"stream_name":"stderr","time":16.931038286,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":16.931084191,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":17.213473043,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":17.213495567,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":18.014597778,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":19.028231825,"data":"[NbConvertApp] Writing 322442 bytes to __results__.html\n"}
+]

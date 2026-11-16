@@ -1,0 +1,18 @@
+{
+  "random_forest": {
+    "rmse": 13.808789750626692,
+    "nasa_score": 278.93559375175465
+  },
+  "xgboost": {
+    "rmse": 13.456540670291982,
+    "nasa_score": 273.00592466803204
+  },
+  "random_forest_selected": {
+    "rmse": 13.54373012579242,
+    "nasa_score": 267.70028840479847
+  },
+  "xgboost_selected": {
+    "rmse": 13.877852332742622,
+    "nasa_score": 290.672056077182
+  }
+}
